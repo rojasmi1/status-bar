@@ -1,0 +1,13 @@
+html, body{
+  height: 100%;
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;;
+}
+
+#mainContainer{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

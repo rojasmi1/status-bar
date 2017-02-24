@@ -1,0 +1,20 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="status-bar">
+  <template>
+    <link rel="stylesheet" href="style.css">
+
+    <section>
+     <div id="head"><span class="headText">Your Progress</span></div>
+     <div id="statusContent">
+       <span id="progressLabel">Reached:</span>
+     </div>
+   </section>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'status-bar',
+    });
+  </script>
+</dom-module>

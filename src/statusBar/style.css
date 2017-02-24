@@ -1,0 +1,34 @@
+:host{
+  max-width: 528px;
+  min-width: 440px;
+  width: 40%;
+  border: 1px solid black;
+  background: #ebebeb;
+}
+
+#head,#statusContent,:host{
+  border-radius: 10px;
+}
+
+#head{
+  padding: 0.3em 1em;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.headText{
+  line-height: 150%;
+  font-size: 18px;
+}
+
+#statusContent{
+  padding: 0.5em 2em;
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin:1em 1.5em;
+}
+
+#progressLabel{
+  font-weight: bold;
+  color: #797979;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "gorilla-progress-indicator",
+  "authors": [
+    "Michael Rojas Pereira"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "webcomponentsjs": "^0.7.24",
+    "polymer": "^1.8.0"
+  },
+  "private": true
+}
