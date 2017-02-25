@@ -10,14 +10,14 @@
        <span id="progressLabel">Reached:</span>
        <div id="barWrapper">
          <div id="bar">
-           <span style="width:[[progressValue]]" id="progress"></span>
+           <span style="width:[[statusBar.progressPercentage]]" id="progress"></span>
          </div>
        </div>
        <div id="target">
-         <span>Target [[target]]</span>
+         <span>Target $[[statusBar.target]]</span>
        </div>
        <div class="informationWarning">
-         You need [[missingAmount]] more to reach your target.
+         You need $[[statusBar.missingAmount]] more to reach your target.
        </div>
      </div>
    </section>
