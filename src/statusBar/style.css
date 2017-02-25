@@ -59,7 +59,7 @@
 
 #progress{
     background: #63b059;
-    width: 50%;
+    width: 0%;
     height: 100%;
     display: block;
     -webkit-transition: width 3s;
