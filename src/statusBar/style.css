@@ -6,8 +6,11 @@
   background: #ebebeb;
 }
 
-#head,#statusContent,:host{
+#head, #statusContent, :host{
   border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 #head{
@@ -31,4 +34,59 @@
 #progressLabel{
   font-weight: bold;
   color: #797979;
+}
+
+#barWrapper,#bar,#progress{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#barWrapper{
+  display: inline-block;
+  height: 12px;
+  width: 200px;
+}
+
+#bar{
+  -moz-box-shadow:    inset 0 0 10px #666666;
+  -webkit-box-shadow: inset 0 0 10px #666666;
+  box-shadow:         inset 0 0 10px #666666;
+  width: 100%;
+  height: 100%;
+}
+
+#progress{
+    background: #63b059;
+    width: 50%;
+    height: 100%;
+    display: block;
+    -webkit-transition: width 3s;
+    transition: width 3s;
+}
+
+
+#target{
+  display: inline-block;
+  width: 60px;
+  height: 45px;
+  text-align: center;
+  background:#929292;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #000000;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 150%;
+}
+
+.informationWarning{
+  line-height: 150%;
+  color: #797979;
+  text-align: center;
+  width: 340px;
+  margin: 2em 0 0.5em 0.5em;
+  background: url('./information-icon-32x32.png') no-repeat left center;
+  background-size: 18px;
 }
