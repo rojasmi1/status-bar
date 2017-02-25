@@ -10,7 +10,6 @@ const statusBar =
        progressValue,
        progressPercentage:`${progressPercentage}%`
      };
-console.log(statusBar);
 setTimeout(()=>{
   document.querySelector('#myStatusBar').setAttribute('status-bar',JSON.stringify(statusBar));
 },100);

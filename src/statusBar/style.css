@@ -87,6 +87,6 @@
   text-align: center;
   width: 340px;
   margin: 2em 0 0.5em 0.5em;
-  background: url('./information-icon-32x32.png') no-repeat left center;
+  background: url('../images/information-icon-32x32.png') no-repeat left center;
   background-size: 18px;
 }

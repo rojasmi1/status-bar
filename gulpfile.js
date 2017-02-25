@@ -31,19 +31,19 @@ gulp.task('build',['copy-source'], function () {
 
 //Prepare sourcode and files in temp folder for optimization
 gulp.task('copy-source',['babel','copy-third-party','copy-images'],()=>{
-      gulp.src([...config.allcss,...config.allhtml])
+    return gulp.src([...config.allcss,...config.allhtml])
       .pipe(gulp.dest(config.temp));
 });
 
 //Copy all bower_components libraries
 gulp.task('copy-third-party',()=>{
-      gulp.src(config.allthirdparty)
+    return gulp.src(config.allthirdparty)
       .pipe(gulp.dest(`${config.build}/bower_components`));
 });
 
 //Copy all images to ./temp/images folder
 gulp.task('copy-images',()=>{
-      gulp.src(config.allimages)
+    gulp.src(config.allimages)
       .pipe(gulp.dest(`${config.build}/images`));
 });
 
