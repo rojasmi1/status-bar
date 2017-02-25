@@ -1,1 +1,3 @@
-const test = 'test';
+Polymer({
+  is: 'status-bar',
+});
